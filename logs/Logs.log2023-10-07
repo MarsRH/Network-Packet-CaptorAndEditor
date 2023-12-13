@@ -1,0 +1,1280 @@
+[SEND] 2023-10-07 22:27:06,401 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c8f6f8@4ae82894
+  Total length: 21 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e8
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (1 bytes)]
+  Hex stream: 31
+[Ethernet Pad (25 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:27:07,411 
+>>>发包完成
+[CAPTURE] 2023-10-07 22:27:23,123 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	242	标识:	ffffaa63	片偏移:	0	生存时间:	114
+高层协议类型:	6 (TCP)	首部校验和:	ffffcb5d
+源IP地址:	/103.10.124.125	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	27025 (unknown)	目的端口:	54895 (unknown)
+序列号:	1848459561
+确认:	-209615610
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	1022	校验和:	ffffa0aa	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (202 bytes)]
+  Hex stream: 17 03 03 00 c5 2c fa 78 22 9a 65 f0 5b 72 98 0d 26 f0 e3 72 28 6d 0d 17 5e 77 45 7b dd 98 30 75 9e 97 08 9d ac fd 4b ef b3 24 c2 f9 0d 02 22 ec 38 90 ff 72 31 f2 fd 06 dc e8 0c e8 26 ee 50 7f c7 a8 5f e3 bc 6c 5d 10 1c 8a 7a 0b 7f 90 62 e7 0e b1 43 2c 7b ec 42 9d 3e a0 22 e2 f0 08 69 84 87 c3 fa 71 a0 d1 af a2 47 fd b6 1f b5 4a f5 98 2d 60 1b 98 50 bf ee 0c 8f 20 64 b6 6a c3 9f 4f 4f 5b 0a e2 ba f3 95 c6 e9 a6 77 e9 17 17 26 dd 31 f4 19 c1 65 d2 50 3c 3b 0b 3a 14 c8 bb 51 5f 1a 2a 95 c2 61 38 ae a9 b8 32 e0 cb fe 99 9a f4 6a 03 0a 98 f7 69 33 e5 41 10 39 4e a3 69 fb 3c 4e 88 5f 13 2c dc cf 68 02 a3
+
+[CAPTURE] 2023-10-07 22:27:23,124 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	21c2	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/103.10.124.125
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	54895 (unknown)	目的端口:	27025 (unknown)
+序列号:	-209615610
+确认:	1848459763
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	511	校验和:	ffff925f	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:27:23,145 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	165	标识:	8ae	片偏移:	0	生存时间:	4
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	51990 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	145
+检验和:	-25741
+数据:	[data (137 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 53 54 3a 20 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70 2d 6f 72 67 3a 64 65 76 69 63 65 3a 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79 44 65 76 69 63 65 3a 31 0d 0a 4d 61 6e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 33 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:26,110 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	165	标识:	8af	片偏移:	0	生存时间:	4
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	51990 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	145
+检验和:	-25741
+数据:	[data (137 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 53 54 3a 20 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70 2d 6f 72 67 3a 64 65 76 69 63 65 3a 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79 44 65 76 69 63 65 3a 31 0d 0a 4d 61 6e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 33 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:28,754 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	41	标识:	ffffe217	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/35.74.215.78
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	54952 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-1422706099
+确认:	-320948372
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	515	校验和:	ffffa971	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (1 bytes)]
+  Hex stream: 00
+
+[CAPTURE] 2023-10-07 22:27:28,837 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	52	标识:	ffffb88a	片偏移:	0	生存时间:	44
+高层协议类型:	6 (TCP)	首部校验和:	ffffece3
+源IP地址:	/35.74.215.78	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	54952 (unknown)
+序列号:	-320948372
+确认:	-1422706098
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	8	校验和:	ffffa32b	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 2872261197 RE: 2872261198]][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:27:29,121 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	165	标识:	8b0	片偏移:	0	生存时间:	4
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	51990 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	145
+检验和:	-25741
+数据:	[data (137 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 53 54 3a 20 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70 2d 6f 72 67 3a 64 65 76 69 63 65 3a 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79 44 65 76 69 63 65 3a 31 0d 0a 4d 61 6e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 33 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:31,565 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |64:6e:e0:9a:42:af   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	ffffeab5	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	2e41
+源IP地址:	/10.1.166.48	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	52825 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	1012
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:32,496 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |64:6e:e0:9a:42:af   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	ffffeab6	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	2e40
+源IP地址:	/10.1.166.48	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	52825 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	1012
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:33,320 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |18:f2:2c:4a:73:99   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	18:f2:2c:4a:73:99
+发送端逻辑地址:	/10.1.161.188
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.163.254
+[CAPTURE] 2023-10-07 22:27:33,517 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |64:6e:e0:9a:42:af   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	ffffeab7	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	2e3f
+源IP地址:	/10.1.166.48	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	52825 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	1012
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:33,518 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	41	标识:	ffffa9eb	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/20.194.180.207
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	54908 (unknown)	目的端口:	443 (HTTPS)
+序列号:	105129368
+确认:	-2002162952
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	514	校验和:	786a	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (1 bytes)]
+  Hex stream: 00
+
+[CAPTURE] 2023-10-07 22:27:33,579 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	52	标识:	7e80	片偏移:	0	生存时间:	45
+高层协议类型:	6 (TCP)	首部校验和:	56f5
+源IP地址:	/20.194.180.207	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	54908 (unknown)
+序列号:	-2002162952
+确认:	105129369
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	501	校验和:	ffffb009	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 105129368 RE: 105129369]][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:27:34,536 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |64:6e:e0:9a:42:af   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	ffffeab8	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	2e3e
+源IP地址:	/10.1.166.48	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	52825 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	1012
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:27:41,918 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |84:d9:31:80:cd:d9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	84:d9:31:80:cd:d9
+发送端逻辑地址:	/10.1.160.1
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.164.193
+[CAPTURE] 2023-10-07 22:27:43,553 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |84:d9:31:80:cd:d9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	84:d9:31:80:cd:d9
+发送端逻辑地址:	/10.1.160.1
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.164.193
+[CAPTURE] 2023-10-07 22:27:43,906 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x86dd (IPv6)  
+
+---<IP协议>---
+版本:	6 (IPv6)	高层协议类型:	6 (TCP)
+源IP地址:	/2001:da8:a012:2d1:396a:2f5e:14b1:b5a1
+目的IP地址:	/2620:1ec:c11:0:0:0:0:239
+
+---<TCP协议>---
+源端口:	55620 (unknown)	目的端口:	443 (HTTPS)
+序列号:	220450637
+确认:	-1828947110
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	510	校验和:	ffffae10	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (1 bytes)]
+  Hex stream: 00
+
+[CAPTURE] 2023-10-07 22:27:43,947 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x86dd (IPv6)  
+
+---<IP协议>---
+版本:	6 (IPv6)	高层协议类型:	6 (TCP)
+源IP地址:	/2620:1ec:c11:0:0:0:0:239
+目的IP地址:	/2001:da8:a012:2d1:396a:2f5e:14b1:b5a1
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55620 (unknown)
+序列号:	-1828947110
+确认:	220450638
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	16384	校验和:	ffff8114	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 220450637 RE: 220450638]][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:27:44,574 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |84:d9:31:80:cd:d9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	84:d9:31:80:cd:d9
+发送端逻辑地址:	/10.1.160.1
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.164.193
+[SEND] 2023-10-07 22:28:17,761 
+java.lang.IllegalArgumentException: arr is empty.
+[SEND] 2023-10-07 22:28:18,776 
+>>>发包完成
+[SEND] 2023-10-07 22:31:07,482 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@704921a5
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:08,513 
+>>>运行完成
+[SEND] 2023-10-07 22:31:46,441 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccef68@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:47,453 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccef68@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:48,466 
+>>>运行完成
+[CAPTURE] 2023-10-07 22:32:10,810 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |84:d9:31:80:cd:d9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	84:d9:31:80:cd:d9
+发送端逻辑地址:	/10.1.160.1
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.163.171
+[CAPTURE] 2023-10-07 22:32:10,810 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |84:d9:31:80:cd:d9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	84:d9:31:80:cd:d9
+发送端逻辑地址:	/10.1.160.1
+目的端硬件地址:	00:00:00:00:00:00
+目的端逻辑地址:	/10.1.163.171
+[CAPTURE] 2023-10-07 22:32:10,830 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	8bb	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	65240 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	-11032
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:32:10,831 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|ff:ff:ff:ff:ff:ff   |34:ce:00:09:ee:b9   |0x0806 (ARP)   
+
+---<ARP协议>---
+硬件类型:	1 (Ethernet (10Mb))	协议类型:	0x0800 (IPv4)
+硬件地址长度:	6	协议地址长度:	4
+操作码:	1 (REQUEST)
+发送端硬件地址:	34:ce:00:09:ee:b9
+发送端逻辑地址:	/10.1.163.254
+目的端硬件地址:	ff:ff:ff:ff:ff:ff
+目的端逻辑地址:	/10.1.161.188
+[CAPTURE] 2023-10-07 22:32:11,266 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	8bc	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	65240 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	-11032
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:32:12,280 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	8bd	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	65240 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	-11032
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[CAPTURE] 2023-10-07 22:32:12,461 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|33:33:00:00:00:01   |84:d9:31:80:cd:d9   |0x86dd (IPv6)  
+
+---<IP协议>---
+版本:	6 (IPv6)	高层协议类型:	58 (ICMPv6)
+源IP地址:	/fe80:0:0:0:86d9:31ff:fe80:cdd9
+目的IP地址:	/ff02:0:0:0:0:0:0:1
+
+[CAPTURE] 2023-10-07 22:32:13,293 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|01:00:5e:7f:ff:fa   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	203	标识:	8be	片偏移:	0	生存时间:	1
+高层协议类型:	17 (UDP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/239.255.255.250
+可选字段:	[]	填充:	[]
+
+---<UDP协议>---
+源端口地址:	65240 (unknown)
+目的端口地址:	1900 (unknown)
+UDP总长度:	183
+检验和:	-11032
+数据:	[data (175 bytes)]
+  Hex stream: 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d 41 47 45 4e 54 3a 20 4d 69 63 72 6f 73 6f 66 74 20 45 64 67 65 2f 31 31 37 2e 30 2e 32 30 34 35 2e 34 37 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a
+
+[SEND] 2023-10-07 22:39:08,553 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccf168@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:39:09,570 
+>>>运行完成
+[SEND] 2023-10-07 22:39:52,628 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: ff:ff:ff:ff:ff:ff
+  Source protocol address: /123.123.123.123
+  Destination hardware address: ff:ff:ff:ff:ff:ff
+  Destination protocol address: /0.0.0.0
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:39:53,629 
+>>>运行完成
+[SEND] 2023-10-07 22:41:51,940 
+java.lang.IllegalArgumentException: arr is empty.
+[SEND] 2023-10-07 22:41:52,951 
+>>>运行完成
+[SEND] 2023-10-07 22:43:22,618 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@6dde5c8c
+  Total length: 40 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 6 (TCP)
+  Header checksum: 0xb9ce
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[TCP Header (20 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Sequence Number: 100
+  Acknowledgment Number: 200
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: false
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 1024
+  Checksum: 0x6b97
+  Urgent Pointer: 0
+[Ethernet Pad (6 bytes)]
+  Hex stream: 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:43:23,630 
+>>>运行完成
+[SEND] 2023-10-07 22:43:37,131 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c941f8@4fcd19b3
+  Total length: 23 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e6
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (3 bytes)]
+  Hex stream: 61 77 61
+[Ethernet Pad (23 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:43:38,147 
+>>>运行完成
+[SEND] 2023-10-07 22:44:53,810 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@fe18270
+  Total length: 28 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 17 (UDP)
+  Header checksum: 0xb9cf
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[UDP Header (8 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Length: 8 [bytes]
+  Checksum: 0xc0bc
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:44:54,820 
+>>>运行完成
+[SEND] 2023-10-07 22:45:16,683 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@587c290d
+  Total length: 31 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 17 (UDP)
+  Header checksum: 0xb9cc
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[UDP Header (8 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Length: 11 [bytes]
+  Checksum: 0xfe3e
+[data (3 bytes)]
+  Hex stream: 61 77 61
+[Ethernet Pad (15 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:45:17,700 
+>>>运行完成
+[SEND] 2023-10-07 22:45:42,281 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x1145 (SHIT)
+[SHIT Header (11 bytes)]
+  Shit: 1 (V2)
+  Length: 11 [bytes]
+  Quality: 1
+  Destination Status: 1
+  Source Status: 1
+  Details: aaa 
+[Ethernet Pad (35 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:45:43,300 
+>>>运行完成
+[CAPTURE] 2023-10-07 22:46:19,609 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|33:33:00:00:00:01   |84:d9:31:80:cd:d9   |0x86dd (IPv6)  
+
+---<IP协议>---
+版本:	6 (IPv6)	高层协议类型:	58 (ICMPv6)
+源IP地址:	/fe80:0:0:0:86d9:31ff:fe80:cdd9
+目的IP地址:	/ff02:0:0:0:0:0:0:1
+
+[CAPTURE] 2023-10-07 22:46:21,260 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	99	标识:	2226	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/103.10.124.125
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	54895 (unknown)	目的端口:	27025 (unknown)
+序列号:	-209610935
+确认:	1848473556
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	515	校验和:	ffff929a	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (59 bytes)]
+  Hex stream: 17 03 03 00 36 8d 57 3c 9d 65 e0 5f 12 4f 0f 90 9c 84 ea b3 d0 87 18 0c 29 53 0f d4 31 9d f9 48 14 45 fb bb 45 e6 8a 14 f1 93 f9 59 4f 7e 35 17 34 61 2e e6 44 cb b9 e6 95 5d ce
+
+[CAPTURE] 2023-10-07 22:46:21,358 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	ffffaac7	片偏移:	0	生存时间:	114
+高层协议类型:	6 (TCP)	首部校验和:	ffffcbc3
+源IP地址:	/103.10.124.125	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	27025 (unknown)	目的端口:	54895 (unknown)
+序列号:	1848473556
+确认:	-209610876
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	1026	校验和:	6884	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:47,455 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	99	标识:	7ea3	片偏移:	0	生存时间:	45
+高层协议类型:	6 (TCP)	首部校验和:	56a3
+源IP地址:	/20.194.180.207	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	54908 (unknown)
+序列号:	-2002162716
+确认:	105129629
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	501	校验和:	ffffcf4c	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (59 bytes)]
+  Hex stream: 17 03 03 00 36 ab a4 b8 3d 98 e9 27 d7 06 5c b4 35 f8 da 2e b5 f0 7d db b0 51 68 34 1a 2c 3e 7c 93 dc 65 8d a0 ef 93 cf 89 64 74 e6 59 6c ea ed a0 03 8d 87 9b ca e9 07 7c 29 c8
+
+[CAPTURE] 2023-10-07 22:48:47,456 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	105	标识:	ffffaa09	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/20.194.180.207
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	54908 (unknown)	目的端口:	443 (HTTPS)
+序列号:	105129629
+确认:	-2002162657
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	513	校验和:	78aa	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (65 bytes)]
+  Hex stream: 17 03 03 00 3c b0 c0 24 0b c1 dc a9 5e b6 0f 18 59 ed 41 8e f5 c3 9a dd 86 e2 1c b8 96 db 86 cf ba a2 bf a0 4f c7 cd bd 67 b0 7d da 5a c1 94 e5 93 23 e2 70 50 1c a7 e6 60 37 06 ca 8e fa 14 d0 06
+
+[CAPTURE] 2023-10-07 22:48:47,476 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	7ea4	片偏移:	0	生存时间:	45
+高层协议类型:	6 (TCP)	首部校验和:	56dd
+源IP地址:	/20.194.180.207	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	54908 (unknown)
+序列号:	-2002162657
+确认:	105129694
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	501	校验和:	3b6e	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,371 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	79	标识:	41d4	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	784e
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55771 (unknown)
+序列号:	167643538
+确认:	-1055714092
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	247	校验和:	fffff71d	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 74 ac ed ea 93 ec ed 0d fa 04 af 23 da cb 57 01 2b c3 30 11 0b d2 cb e5 31 2a f0 33 6d ac ed ec 89 1c
+
+[CAPTURE] 2023-10-07 22:48:51,372 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	fffff42d	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55771 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-1055714092
+确认:	167643577
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	true
+窗口大小:	511	校验和:	ffff8ea1	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,372 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	41d6	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	7873
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55771 (unknown)
+序列号:	167643601
+确认:	-1055714092
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	true
+窗口大小:	247	校验和:	5b08	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,372 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	64	标识:	41d5	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	785c
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55771 (unknown)
+序列号:	167643577
+确认:	-1055714092
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	247	校验和:	ffff855b	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (24 bytes)]
+  Hex stream: 17 03 03 00 13 65 d1 f7 b9 08 cc 3a 43 40 63 a0 5f b0 5a ec 36 18 b9 6c
+
+[CAPTURE] 2023-10-07 22:48:51,373 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	fffff42e	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55771 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-1055714091
+确认:	167643601
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	true	SYN:	false	FIN:	false
+窗口大小:	0	校验和:	ffff8ea1	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,373 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	fffff42f	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55771 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-1055714092
+确认:	-1055714092
+首部长度:	20	保留:	0
+URG:	false	ACK:	false	PSH:	false	RST:	true	SYN:	false	FIN:	false
+窗口大小:	0	校验和:	ffff8ea1	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,401 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	ffff81fb	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	384e
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55772 (unknown)
+序列号:	-1713691548
+确认:	-684454795
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	true
+窗口大小:	294	校验和:	ffffa2a5	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,402 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	64	标识:	ffff81fa	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	3837
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55772 (unknown)
+序列号:	-1713691572
+确认:	-684454795
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	294	校验和:	ffffce6e	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (24 bytes)]
+  Hex stream: 17 03 03 00 13 be ad 27 66 2c 07 a5 c2 58 35 0c c3 93 c1 9d ef 8d 1f 51
+
+[CAPTURE] 2023-10-07 22:48:51,406 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	52	标识:	fffff430	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55772 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-684454795
+确认:	-1713691611
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	511	校验和:	ffff8ead	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 2581275724 RE: 2581275748]][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,406 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	52	标识:	fffff431	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55772 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-684454795
+确认:	-1713691611
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	511	校验和:	ffff8ead	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 2581275724 RE: 2581275748]][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,417 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	79	标识:	ffff81f9	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	3829
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55772 (unknown)
+序列号:	-1713691611
+确认:	-684454795
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	true	RST:	false	SYN:	false	FIN:	false
+窗口大小:	294	校验和:	ffff96d2	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 c9 1c 69 e3 21 f4 32 82 51 0c 20 3f 9b 3a 11 e8 d9 69 5f e8 2c 2f a6 62 02 dc 28 de 31 2d 0d 93 c4 8c
+
+[CAPTURE] 2023-10-07 22:48:51,417 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	fffff432	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55772 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-684454795
+确认:	-1713691547
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	511	校验和:	ffff8ea1	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,418 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	fffff433	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/123.249.99.208
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55772 (unknown)	目的端口:	443 (HTTPS)
+序列号:	-684454795
+确认:	-1713691547
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	true
+窗口大小:	511	校验和:	ffff8ea1	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:51,418 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	40	标识:	ffff81fc	片偏移:	0	生存时间:	50
+高层协议类型:	6 (TCP)	首部校验和:	384d
+源IP地址:	/123.249.99.208	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55772 (unknown)
+序列号:	-1713691547
+确认:	-684454794
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	294	校验和:	ffffa2a4	紧急指针:	0
+选项和填充:	[][]
+数据部分:	null
+[CAPTURE] 2023-10-07 22:48:55,825 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|84:d9:31:80:cd:d9   |f8:5e:a0:19:ea:06   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	41	标识:	fffff81c	片偏移:	0	生存时间:	-128
+高层协议类型:	6 (TCP)	首部校验和:	0
+源IP地址:	/10.1.164.188	目的IP地址:	/119.3.217.249
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	55755 (unknown)	目的端口:	443 (HTTPS)
+序列号:	1378524692
+确认:	1789476237
+首部长度:	20	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	511	校验和:	ffffffd5	紧急指针:	0
+选项和填充:	[][]
+数据部分:	[data (1 bytes)]
+  Hex stream: 00
+
+[CAPTURE] 2023-10-07 22:48:55,841 
+---<以太网MAC协议>----------------------------------------
+目的MAC地址             源MAC地址              类型            
+|f8:5e:a0:19:ea:06   |84:d9:31:80:cd:d9   |0x0800 (IPv4)  
+
+---<IP协议>---
+版本:	4 (IPv4)	首部长度:	5
+服务类型:	[precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+总长度:	52	标识:	ffff87af	片偏移:	0	生存时间:	45
+高层协议类型:	6 (TCP)	首部校验和:	ffffc65a
+源IP地址:	/119.3.217.249	目的IP地址:	/10.1.164.188
+可选字段:	[]	填充:	[]
+
+---<TCP协议>---
+源端口:	443 (HTTPS)	目的端口:	55755 (unknown)
+序列号:	1789476237
+确认:	1378524693
+首部长度:	32	保留:	0
+URG:	false	ACK:	true	PSH:	false	RST:	false	SYN:	false	FIN:	false
+窗口大小:	275	校验和:	2474	紧急指针:	0
+选项和填充:	[[Kind: 1 (No Operation)], [Kind: 1 (No Operation)], [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 1378524692 RE: 1378524693]][]
+数据部分:	null

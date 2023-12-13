@@ -1,0 +1,588 @@
+[SEND] 2023-10-07 22:27:06,401 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c8f6f8@4ae82894
+  Total length: 21 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e8
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (1 bytes)]
+  Hex stream: 31
+[Ethernet Pad (25 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:27:07,411 
+>>>发包完成
+[SEND] 2023-10-07 22:28:17,761 
+java.lang.IllegalArgumentException: arr is empty.
+[SEND] 2023-10-07 22:28:18,776 
+>>>发包完成
+[SEND] 2023-10-07 22:31:07,482 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@704921a5
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:08,513 
+>>>运行完成
+[SEND] 2023-10-07 22:31:46,441 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccef68@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:47,453 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccef68@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:31:48,466 
+>>>运行完成
+[SEND] 2023-10-07 22:39:08,553 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccf168@6dde5c8c
+  Total length: 20 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e9
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[Ethernet Pad (26 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:39:09,570 
+>>>运行完成
+[SEND] 2023-10-07 22:39:52,628 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: ff:ff:ff:ff:ff:ff
+  Source protocol address: /123.123.123.123
+  Destination hardware address: ff:ff:ff:ff:ff:ff
+  Destination protocol address: /0.0.0.0
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:39:53,629 
+>>>运行完成
+[SEND] 2023-10-07 22:41:51,940 
+java.lang.IllegalArgumentException: arr is empty.
+[SEND] 2023-10-07 22:41:52,951 
+>>>运行完成
+[SEND] 2023-10-07 22:43:22,618 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@6dde5c8c
+  Total length: 40 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 6 (TCP)
+  Header checksum: 0xb9ce
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[TCP Header (20 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Sequence Number: 100
+  Acknowledgment Number: 200
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: false
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 1024
+  Checksum: 0x6b97
+  Urgent Pointer: 0
+[Ethernet Pad (6 bytes)]
+  Hex stream: 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:43:23,630 
+>>>运行完成
+[SEND] 2023-10-07 22:43:37,131 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c941f8@4fcd19b3
+  Total length: 23 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e6
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (3 bytes)]
+  Hex stream: 61 77 61
+[Ethernet Pad (23 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:43:38,147 
+>>>运行完成
+[SEND] 2023-10-07 22:44:53,810 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@fe18270
+  Total length: 28 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 17 (UDP)
+  Header checksum: 0xb9cf
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[UDP Header (8 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Length: 8 [bytes]
+  Checksum: 0xc0bc
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:44:54,820 
+>>>运行完成
+[SEND] 2023-10-07 22:45:16,683 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@587c290d
+  Total length: 31 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 17 (UDP)
+  Header checksum: 0xb9cc
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[UDP Header (8 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Length: 11 [bytes]
+  Checksum: 0xfe3e
+[data (3 bytes)]
+  Hex stream: 61 77 61
+[Ethernet Pad (15 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:45:17,700 
+>>>运行完成
+[SEND] 2023-10-07 22:45:42,281 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x1145 (SHIT)
+[SHIT Header (11 bytes)]
+  Shit: 1 (V2)
+  Length: 11 [bytes]
+  Quality: 1
+  Destination Status: 1
+  Source Status: 1
+  Details: aaa 
+[Ethernet Pad (35 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-07 22:45:43,300 
+>>>运行完成
+[SEND] 2023-10-08 15:05:01,540 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 15:05:02,547 
+>>>运行完成
+[SEND] 2023-10-08 15:05:38,185 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccbc60@6d3af739
+  Total length: 23 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e6
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (3 bytes)]
+  Hex stream: 61 61 61
+[Ethernet Pad (23 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 15:05:39,197 
+>>>运行完成
+[SEND] 2023-10-08 15:25:13,990 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 15:26:07,469 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 15:26:08,480 
+>>>运行完成
+[SEND] 2023-10-08 16:32:03,449 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800ccf168@4ae82894
+  Total length: 21 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e8
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (1 bytes)]
+  Hex stream: 31
+[Ethernet Pad (25 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 16:32:04,462 
+>>>运行完成
+[SEND] 2023-10-08 18:04:25,449 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x1145 (SHIT)
+[SHIT Header (11 bytes)]
+  Shit: 1 (V2)
+  Length: 11 [bytes]
+  Quality: 1024
+  Destination Status: -56
+  Source Status: -56
+  Details: aaa 
+[Ethernet Pad (35 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:04:26,451 
+>>>运行完成
+[SEND] 2023-10-08 18:07:29,577 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@4fcd19b3
+  Total length: 21 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 255 (unknown)
+  Header checksum: 0xb8e8
+  Source address: /0.0.0.1
+  Destination address: /0.0.0.1
+[data (1 bytes)]
+  Hex stream: 31
+[Ethernet Pad (25 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:07:30,584 
+>>>运行完成
+[SEND] 2023-10-08 18:08:25,895 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:08:26,911 
+>>>运行完成
+[SEND] 2023-10-08 18:10:04,094 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: f8:5e:a0:19:ea:06
+  Source protocol address: /10.1.166.95
+  Destination hardware address: ff:ff:ff:ff:ff:ff
+  Destination protocol address: /123.123.123.123
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:10:05,113 
+>>>运行完成
+[SEND] 2023-10-08 18:11:42,996 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800cd01f8@57f23557
+  Total length: 43 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 6 (TCP)
+  Header checksum: 0xcbdf
+  Source address: /123.123.123.123
+  Destination address: /123.123.123.123
+[TCP Header (20 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Sequence Number: 200
+  Acknowledgment Number: 200
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: false
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 1024
+  Checksum: 0xbae2
+  Urgent Pointer: 0
+[data (3 bytes)]
+  Hex stream: 61 61 61
+[Ethernet Pad (3 bytes)]
+  Hex stream: 00 00 00
+
+[SEND] 2023-10-08 18:11:44,014 
+>>>运行完成
+[SEND] 2023-10-08 18:13:28,310 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800cd01f8@5f71c76a
+  Total length: 31 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 17 (UDP)
+  Header checksum: 0xcbe0
+  Source address: /123.123.123.123
+  Destination address: /123.123.123.123
+[UDP Header (8 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Length: 11 [bytes]
+  Checksum: 0x1069
+[data (3 bytes)]
+  Hex stream: 61 61 61
+[Ethernet Pad (15 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:13:29,313 
+>>>运行完成
+[SEND] 2023-10-08 18:14:58,361 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x1145 (SHIT)
+[SHIT Header (11 bytes)]
+  Shit: 1 (V2)
+  Length: 11 [bytes]
+  Quality: 1024
+  Destination Status: -56
+  Source Status: -56
+  Details: aaa 
+[Ethernet Pad (35 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 18:14:59,365 
+>>>运行完成
+[SEND] 2023-10-08 21:08:01,745 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x1145 (SHIT)
+[SHIT Header (11 bytes)]
+  Shit: 1 (V2)
+  Length: 11 [bytes]
+  Quality: 100
+  Destination Status: 1
+  Source Status: -56
+  Details: aaa 
+[Ethernet Pad (35 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-08 21:08:02,758 
+>>>运行完成
+[SEND] 2023-10-08 21:10:49,729 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: org.networkdesign.Send$$Lambda$71/0x0000000800c94000@4ae82894
+  Total length: 43 [bytes]
+  Identification: 0
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 1
+  Protocol: 6 (TCP)
+  Header checksum: 0xcbdf
+  Source address: /123.123.123.123
+  Destination address: /123.123.123.123
+[TCP Header (20 bytes)]
+  Source port: 8080 (unknown)
+  Destination port: 8080 (unknown)
+  Sequence Number: 123
+  Acknowledgment Number: 123
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: false
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 1024
+  Checksum: 0xbb7c
+  Urgent Pointer: 0
+[data (3 bytes)]
+  Hex stream: 61 61 61
+[Ethernet Pad (3 bytes)]
+  Hex stream: 00 00 00
+
+[SEND] 2023-10-08 21:10:50,734 
+>>>运行完成
+[SEND] 2023-10-12 17:12:08,585 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-12 17:12:09,605 
+>>>�������

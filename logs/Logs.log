@@ -1,0 +1,10 @@
+[SEND] 2023-10-12 17:12:08,585 
+[Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: f8:5e:a0:19:ea:06
+  Type: 0xffff (unknown)
+[Ethernet Pad (46 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+[SEND] 2023-10-12 17:12:09,605 
+>>>运行完成
